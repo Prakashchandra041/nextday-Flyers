@@ -1,0 +1,500 @@
+
+.phone > img {
+        width: 30px;
+      }
+      .phone1{
+        display: flex;
+        flex-direction: row;
+        width: 200px ;
+      }
+      .nav_row1_1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .nav_row1_2 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 33%;
+      }
+      .nav_row1_2 button > img {
+        width: 40px;
+      }
+      .nav_row1_2_button button {
+        color: green;
+        border: none;
+        background-color: white;
+      }
+      .nav_row1_2_button + div > button {
+        background-color: white;
+        align-items: center;
+        border: 0.3px solid black;
+        border-radius: 4px;
+      }
+      .nav_row1_2_button + div > button > span {
+        margin-top: -10px;
+      }
+      #nav_row1 {
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        width: 90%;
+        padding: 8px;
+        margin: auto;
+      }
+      .nav_row1_3 {
+        display: grid;
+        width: 100%;
+        grid-gap: 2px;
+        grid-template-columns: 19% 33% 13% 13% 20%;
+        margin-top: 16px;
+      }
+      .nav_row1_3 > div {
+        background-color: rgb(51, 51, 51);
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        padding: 5px 0px;
+        vertical-align: middle;
+      }
+      .searchBar > div > img {
+        width: 20px;
+        height: 20px;
+
+        text-align: center;
+        justify-content: center;
+      }
+      .searchBar > div {
+        background-color: white;
+        /* padding: 8px; */
+        width: 90%;
+        margin: auto;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+      .searchBar > div > input {
+        border: none;
+        padding-bottom: 10px;
+      }
+      body {
+        box-sizing: border-box;
+      }
+      .serviceLi {
+        position: absolute;
+        margin-top: 20px;
+        background-color: white;
+        border:1px solid rgb(201, 199, 199);
+        display: none;
+        line-height: 1.9;
+        width: 150px;
+        font-size: 17px;
+        list-style-type: none;
+      }
+      .service:hover > .serviceLi {
+        display: block;
+        color: black;
+      }
+      .serviceLi > li:hover {
+        padding: 4px;
+        background-color: rgb(159, 240, 159);
+      }
+
+      .supportLi {
+        position: absolute;
+        margin-top: 20px;
+        background-color: white;
+        border:1px solid rgb(201, 199, 199);
+        display: none;
+        line-height: 1.9;
+        width: 210px;
+        font-size: 17px;
+        list-style-type: none;
+      }
+      .support:hover > .supportLi {
+        display: block;
+        color: black;
+      }
+      .supportLi > li:hover {
+        padding: 4px;
+        background-color: rgb(159, 240, 159);
+      }
+
+        .covidli {
+        position: absolute;
+        margin-top: 20px;
+        background-color: white;
+        border:1px solid rgb(201, 199, 199);
+        display: none;
+        line-height: 1.9;
+        width: 210px;
+        font-size: 17px;
+        list-style-type: none;
+      }
+      .covid:hover > .covidli {
+        display: block;
+        color: black;
+      }
+      .covidli > li:hover {
+        padding: 4px;
+        background-color: rgb(159, 240, 159);
+      }
+
+      .productLi {
+        position: absolute;
+        margin-top: 20px;
+        background-color: white;
+        border:1px solid rgb(201, 199, 199);
+        display: none;
+        justify-content: center;
+      }
+      .product:hover > .productLi {
+        display: block;
+        color: black;
+      }
+      .productLi>img{
+        width: 80%;
+      }
+      
+
+      body {
+        box-sizing: border-box;
+      }
+      .bgPhoto {
+        background-image: url("https://s1-ecp.nextdayflyers.com/1508/NDF_Packaging_Banner-large.jpg");
+        width: 90%;
+        height: 300px;
+        background-size: cover;
+        margin: auto;
+      }
+      .bgPhoto {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+      .bg_r1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 25px;
+      }
+      .bg_r1 > button {
+        padding: 12px;
+        background-color: rgb(108, 158, 27);
+        color: white;
+        border-radius: 4px;
+        width: 75%;
+        font-size: 17px;
+        border: none;
+      }
+      .bg_r1 > button:hover {
+        background-color: rgb(82, 168, 82);
+      }
+      .bg_r1 > p {
+        font-size: 20px;
+        margin-top: -5px;
+      }
+      .bg_r2 {
+        display: flex;
+        flex-direction: row;
+        margin-left: -60px;
+      }
+      .bg_r1 > button + div {
+        width: 110%;
+        height: 1px;
+        background-color: black;
+        margin-top: 35px;
+        margin-left: -40px;
+      }
+
+      .bgPhotoCov {
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+      }
+      .bg_r2 > div {
+        display: flex;
+        flex-direction: row;
+      }
+      .bg_r2 img {
+        width: 25px;
+      }
+      .bg_r2 span + span {
+        margin-top: 22px;
+      }
+      .bg_r2 > div {
+        margin-right: 8px;
+      }
+      .bg_r2 > div:hover{
+          margin-top: -8px;
+      }
+      /* after background cover  */
+      .belowBG{
+        width: 90%; 
+        margin: auto;
+        /* height: 400px; */
+        display: flex;
+        flex-direction: row;
+      }
+      /* left nav start */
+      .left{
+            width: 30%;
+            border: 1px solid rgb(194, 192, 192);
+            font-family: Titillium,Arial,sans-serif;
+            line-height: 0.328cm;
+        }
+        ul{
+            list-style-type: none;
+        }
+        .right_b1{
+            margin-left: 10px;
+        }
+        li{
+            display: flex;
+            flex-direction: row;
+            margin-left: 5px;
+            margin-bottom: 8px;
+            padding: 10px;
+        }
+        li>img{
+            width: 20px;
+        }
+        .new>img{
+            width: 25px;
+            height: 20px;
+        }
+        li:hover{
+            background-color: lightgreen;
+        }
+
+
+
+
+      /* left nav end */
+
+          /* css of sliding image of both 1 and 2 */
+                     /* first slider img css          */
+            #sliderCon1 {
+            width: 100%;
+            position: relative;
+            margin: auto;
+            }
+
+            #sliderCon1 > h3 {
+            color: #0b1219;
+            font-size: 24px;
+            margin-left: 12px;
+            text-align: center;
+            }
+
+            .arrowslider1 {
+            position: absolute;
+            cursor: pointer;
+            top: 50%;
+            color: black;
+            font-size: 25px;
+            font-weight: 50;
+            height: 30px;
+            background-color: white;
+            width: 30px;
+            text-align: center;
+            border-radius: 50%;
+            }
+
+            #next1 {
+            right: 0.5%;
+            }
+
+            #prev1 {
+            left: 0.5%;
+            }
+
+            #parentBox1 {
+            display: flex;
+            width: 95%;
+            justify-content: space-evenly;
+            position: relative;
+            margin: auto;
+            margin-top: 20px;
+            }
+
+            .child {
+            width: 25%;
+            border: 1px solid rgb(172, 168, 168);
+            margin: 10px;
+            display: none;
+            }
+            .child p,label{
+                padding: 5px;
+            }
+            .child:hover p,label{
+               color: green;
+            }
+            .child img {
+            width:100%;
+            height: 60%;
+            }
+            #sliderCon1>p{
+                text-align: center;
+                font-size: 17px;
+                font-weight: lighter;
+            }
+
+ /* second slider image css */
+         #sliderCon2 {
+            width: 100%;
+            position: relative;
+            margin: auto;
+            }
+
+            #sliderCon2 > h3 {
+            color: #0b1219;
+            font-size: 24px;
+            margin-left: 12px;
+            text-align: center;
+            }
+
+            .arrowslider2 {
+            position: absolute;
+            cursor: pointer;
+            top: 50%;
+            color: black;
+            font-size: 25px;
+            font-weight: 50;
+            height: 30px;
+            background-color: white;
+            width: 30px;
+            text-align: center;
+            border-radius: 50%;
+            }
+
+            #next2 {
+            right: 0.5%;
+            }
+
+            #prev2 {
+            left: 0.5%;
+            }
+
+            #parentBox2 {
+            display: flex;
+            width: 95%;
+            justify-content: space-evenly;
+            position: relative;
+            margin: auto;
+            margin-top: 20px;
+            }
+
+            .child {
+            width: 25%;
+            border: 1px solid rgb(172, 168, 168);
+            margin: 10px;
+            display: none;
+            }
+            .child p,label{
+                padding: 5px;
+            }
+            .child:hover p,label{
+               color: green;
+            }
+            .child img {
+            width:100%;
+            height: 60%;
+            }
+            #sliderCon2>p{
+                text-align: center;
+                font-size: 17px;
+                font-weight: lighter;
+            }
+/* end of sliding image of 2 div */
+            #imagediv{
+           width: 100%;
+           padding: 10px;
+            }
+            .img1>img{
+              width: 99%;
+            }
+
+
+
+            /* footer css start */
+            .foot_con {
+        width: 90%;
+        background-color: rgb(102, 102, 102);
+        margin-top: 20px;
+        width: 100%;
+        height: 422px;
+        margin: auto;
+        padding: 10px;
+        font-family: Titillium, Arial, sans-serif;
+        color: white;
+      }
+      .foot_con > div {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        width: 95%;
+        margin: auto;
+        
+      }
+     
+      .foot1_img > img {
+        height: 50px;
+        width: 70%;
+        margin: auto;
+      }
+      hr {
+        color: black;
+      }
+      .foot1_1 {
+        margin-top: 25px;
+        margin-bottom: 35px;
+      }
+      .foot1_1 > a {
+        font-size: 12px;
+        color: white;
+        text-decoration: none;
+      }
+      .foot1 {
+        width: 27%;
+       
+        padding: 5px;
+      }
+      .foot5 {
+        width: 30%;
+       
+        padding: 5px;
+      }
+      .foot2,
+      .foot3,
+      .foot4 {
+        width: 12%;
+        padding: 5px;
+      }
+      .foot5 > input {
+        border-radius: 5px;
+        width: 75%;
+        padding: 15px;
+        border: none;
+        color: rgb(102, 102, 102);
+        font-size: 14px;
+      }
+      .foot5 > button {
+        width: 55%;
+        border-radius: 4px;
+        border: none;
+        background-color: rgb(221, 221, 221);
+        padding: 15px;
+        color: white;
+        margin-top: 15px;
+      }
+      .line {
+        width: 95%;
+        height: 1px;
+        background-color: black;
+        
+          
+      }
+      .line+p{
+          text-align: center;
+      }

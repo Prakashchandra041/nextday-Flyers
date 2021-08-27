@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+  </head>
+  <body>
+
+    <!-- nav start  -->
+    <div id="nav_row1">
+
+      <div class="nav_row1_1">
+        <div onclick="homePage()">
+          <img
+            src="https://s1-ecp.nextdayflyers.com/static/assets/vendor/dri/ndf-base-css/assets/img/ndf-logo.svg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            src="https://s1-ecp.nextdayflyers.com/static/assets/vendor/dri/ndf-base-css/assets/img/on-time-guarantee.svg"
+            alt=""
+          />
+        </div>
+        <div>
+          <span class="phone"
+            ><img
+              src="https://www.pngitem.com/pimgs/m/499-4994239_telephone-green-phone-symbol-hd-png-download.png"
+              alt=""
+          /></span>
+          <span>855-898-9870</span>
+        </div>
+
+        <div class="nav_row1_2">
+          <div class="nav_row1_2_button">
+            <span>Hello! </span>|<span><button onclick="redirectLogin()">Log In</button></span>
+            <br />
+            <button>MY Account</button>
+          </div>
+
+          <div>
+            <button id="buttonCart">
+              <img
+                src="https://i.pinimg.com/originals/15/4f/df/154fdf2f2759676a96e9aed653082276.png"
+                alt=""
+              />
+              <span class="align">Cart -1</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav_row1_3">
+
+        <div class="product">
+           ALL PRODUCTS &#9661;
+           
+          <div class="productLi">
+           <img src="projectImg\allproduc.img.png" alt="">
+          </div>
+        </div>
+
+        <div class="searchBar">
+          <div>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRExFU9eAdMJPnlOeuHz0mU0mUX-fAyvsO25vDcI-uR3ucM2Sml2RE7zuUAVfxC6N55ras&usqp=CAU"
+              alt=""
+            />
+            <input
+              type="text"
+              placeholder=" Search (ex. boxes, stickers, lables etc)"
+            />
+          </div>
+        </div>
+
+        <div class="covid">COVID-19
+            <div class="covidli">
+                <li>Restaurant Essentials</li>
+                <li>COVID Awareness Printing</li>
+                <li>Illness Prevention Printing</li>
+                <li>Grocery Store Printing</li>
+                <li>Healthcare Appreciation</li>
+                <li>Custom Boxes</li>
+                <li>Labels</li>
+                <li>Take-out Menus</li>
+                <li>Postcards</li>
+                <li>Stickers</li>
+                <li>Flyers</li>
+                <li>Posters</li>
+                <li>Banners</li>
+            </div>
+
+        </div>
+
+        <div class="service">
+          SERVICES
+          <div class="serviceLi">
+            <li>Custom Printing</li>
+            <li>Mailing Services</li>
+            <li>Direct Mail</li>
+            <li>EDOM</li>
+            <li>Esign Online</li>
+          </div>
+        </div>
+
+        <div class="support">
+          SUPPORT & RESOURCES
+          <div class="supportLi">
+            <li>Contact Us</li>
+            <li>Help Center & FAQ</li>
+            <li>Blog</li>
+            <li>Request a Sample Pack</li>
+            <li>Turnaround Time</li>
+            <li>Preparing Your File</li>
+            <li>Standard Templates</li>
+            <li>Folded Templates</li>
+            <li>Die Cut Templates</li>
+            <li>Specialty Templates</li>
+            <li>Large Format Templates</li>
+            <li>Free Design Templates</li>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- nav end -->
+    
+
+
+
+
+    <div class="cartMainBox">
+      <div class="cartRow1">
+        <img
+          src="https://img.flaticon.com/icons/png/512/25/25619.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF"
+          alt=""
+        />
+        <h3>Shopping Cart</h3>
+      </div>
+      <div class="cartline"></div>
+
+      <div class="cartRow2">
+        <div class="cartLeft">
+          <div class="cartLR1">ORDER SUMMARY</div>
+
+          <div class="cartLR2">
+            <div class="cartL1">
+              <img id="cartimg"
+                src=""
+                alt=""
+              />
+              <li>Edit Design</li>
+              <li>Clone Item</li>
+              <li>Modify Specs</li>
+              <li>Remove from Cart</li>
+            </div>
+
+            <div class="cartL2">
+              <div><h4 id="prtName">    </h4></div>
+              <li><strong>Size :</strong><span>Rectangle Rounded Corners</span></li>
+              <li><strong>Decoration :</strong><span> Gloss Indoor Laminate</span></li>
+              <li><strong>Placement :</strong><span>abcd</span></li>
+              <li><strong>Color :</strong><span>Green</span></li>
+              <li><strong>Printing Time :</strong><span>Evening</span></li>
+              <li><strong>Quantity :</strong><span>  1</span></li>
+            </div>
+          </div>
+        </div>
+
+        <div class="cartRight">
+          <div class="cartR1">ORDER TOTAL</div>
+
+          <li class="cartUl"><span> Printing </span><span id="cartprice1"> $206.16 </span></li>
+          <li class="cartUl"><span> Sales Tax </span><span> $0.00 </span></li>
+          <li class="cartUl">
+            <span> Shipping & Handling </span><span>$0.00 </span>
+          </li>
+          <div class="cartline"></div>
+          <li class="cartEstimate">
+            <span> Estimated Total </span> <span id="cartprice2"> $206.16 </span>
+          </li>
+          <button onclick="checkout()">Checkout</button>
+          <br /><br />
+          <div class="cartline"></div>
+          <div class="continueShopping">Continue Shopping</div>
+        </div>
+      </div>
+    </div>
+     <div class="cartCoupon">
+         <div class="cc1"> SHIPPING OPTIONS</div>
+         <div class="cc2"> 
+             <div> Enter 5 digit zip code </div>
+             <div> <input type="text"> </div>
+             <div> <button onclick="showDate()">GET ESTIMATED</button></div>
+         </div>
+         <div class="cc3">
+             <img src="	https://store.nextdayflyers.com/assets/img/OTG-swoosh-clock.2f055114.png" alt="">
+             <div> *On-time delivery date is 100% guaranteed if press-ready files are received by <a href="">cut-off time.</a></div>
+         </div>
+     </div>
+     <br>
+     <br>
+     <br>
+     <br>
+
+     <!-- footer start  -->
+
+       <div class="foot_con">
+      <div>
+        <div class="foot1">
+          <div>
+            <img
+              src="https://s1-ecp.nextdayflyers.com/static/assets/img/ndf-logo.svg"
+              alt=""
+            />
+          </div>
+
+          <div class="foot1_1">
+            <p>855-898-9870</p>
+            <a href="">cusomercare@nextdayflyers.com</a>
+          </div>
+
+          <div>
+            <h4>FOLLOW US</h4>
+            <hr />
+            <div class="foot1_img">
+              <img
+                src="https://cdn141.picsart.com/318453442390211.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="foot2">
+          <h4>RESOURCES</h4>
+          <hr />
+          <p>Help Center</p>
+          <p>Guarantee</p>
+          <p>Turnaround Time Opions</p>
+          <p>Blog</p>
+          <p>Articles</p>
+        </div>
+        <div class="foot3">
+          <h4>SUPPORT</h4>
+          <hr />
+          <p>Contact Us</p>
+          <p>Request a Sample Pack</p>
+          <p>Quality Checkpoints</p>
+        </div>
+
+        <div class="foot4">
+          <h4>COMPANY INFO</h4>
+          <hr />
+          <p>About Us</p>
+          <p>Locations</p>
+          <p>Privacy Policy</p>
+          <p>Accessibilty</p>
+          <p>Terms & Conditions</p>
+          <p>Site Map</p>
+        </div>
+        <div class="foot5">
+          <h4>NEWSLEETTER</h4>
+          <hr />
+          <p>Sign up to receive specal marketing tips & promotions.</p>
+          <input type="email" placeholder="Enter your email" />
+          <button>SIGN UP</button>
+        </div>
+      </div>
+      <div class="line"></div>
+        <p>Copyright © 20221 Next Day Flyers  All International Rights Reserved</p>
+        
+      </div>
+
+      <!-- footer end -->
+
+
+  </body>
+</html>
+
+<script>
+  let imagecart=document.getElementById("cartimg");
+  let imgsrc=localStorage.getItem("imgcustom");
+   imagecart.src=imgsrc;
+  let prtName=document.getElementById("prtName");
+  prtName.innerText= "PRODUCT NAME  :"+ localStorage.getItem("prName");
+  document.getElementById("cartprice1").innerText=localStorage.getItem("priceEach");
+   document.getElementById("cartprice2").innerText=localStorage.getItem("priceEach");
+  
+ 
+  function showDate(){
+    alert("Expected date of delivery is within 10 days");
+  }
+
+  function checkout(){
+    setTimeout(() => {
+      alert("Payment Successful");
+      window.location.href="success.html"
+    }, 2000);
+  }
+
+
+ function homePage(){
+    window.location.href="index.html"
+  }
+
+
+ function redirectLogin(){
+    window.location.href="login.html";
+  }
+</script>

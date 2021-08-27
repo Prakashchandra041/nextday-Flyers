@@ -1,0 +1,239 @@
+ #nav{
+            display: flex;
+            flex-direction: row-reverse;
+            border: 1px solid black;
+            padding: 15px;
+        }
+        #nav>button{
+            margin-left: 30px;
+            font-size: 25px;
+            border: none;
+            background-color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        /* #mainDiv{
+            width: 90%;
+           
+        } */
+         #sort{
+            background-color: salmon;
+            width: 40%;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: row;
+            padding: 2px;
+            justify-content: center;
+        }
+        #sort button{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            font-weight: 900;
+            border-radius: 6px;
+            margin: 10px;
+        }
+        #signup{
+            width: 88%;
+            height: 200px;
+            margin: auto;
+           
+        }
+        #formDiv{
+            display: flex; 
+            flex-direction: column;
+        }
+        #formDiv>input{
+            padding: 5px;
+            margin-bottom: 25px;
+            margin-top: 7px;
+        }
+        .sign_row1{
+            text-align: center;
+            background-color: rgb(242,242,242);
+            padding: 20px;
+            font-weight: 700;
+            font-size: 17px;
+        }
+        #submit{
+            background-color: rgb(108,158,27);
+            border-radius: 5px;
+            color:white;    
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 800;
+            font-size: 18px;
+        }
+       #mainDiv{
+           width: 40%;
+            margin: auto;
+       }
+       p{
+           line-height: 150%;
+           color: rgb(112, 112, 112);
+           margin-top: -5px;
+           padding: 7px;
+       }
+       p>a{
+           color:  green;
+       }
+
+
+    /* nav start */
+ .phone > img {
+        width: 30px;
+      }
+      .nav_row1_1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .nav_row1_2 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 33%;
+      }
+      .nav_row1_2 button > img {
+        width: 40px;
+      }
+      .nav_row1_2_button button {
+        color: green;
+        border: none;
+        background-color: white;
+      }
+      .nav_row1_2_button + div > button {
+        background-color: white;
+        align-items: center;
+        border: 0.3px solid black;
+        border-radius: 4px;
+      }
+      .nav_row1_2_button + div > button > span {
+        margin-top: -10px;
+      }
+      #nav_row1 {
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        width: 90%;
+        padding: 8px;
+        margin: auto;
+      }
+      .nav_row1_3 {
+        display: grid;
+        width: 100%;
+        grid-gap: 2px;
+        grid-template-columns: 19% 33% 13% 13% 20%;
+        margin-top: 16px;
+      }
+      .nav_row1_3 > div {
+        background-color: rgb(51, 51, 51);
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        padding: 5px 0px;
+        vertical-align: middle;
+      }
+      .searchBar > div > img {
+        width: 20px;
+        height: 20px;
+
+        text-align: center;
+        justify-content: center;
+      }
+      .searchBar > div {
+        background-color: white;
+        /* padding: 8px; */
+        width: 90%;
+        margin: auto;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+      .searchBar > div > input {
+        border: none;
+        padding-bottom: 10px;
+      }
+      body {
+        box-sizing: border-box;
+      }
+      .serviceLi {
+        position: absolute;
+        margin-top: 20px;
+        background-color: white;
+        border:1px solid rgb(201, 199, 199);
+        display: none;
+        line-height: 1.9;
+        width: 150px;
+        font-size: 17px;
+        list-style-type: none;
+      }
+      .service:hover > .serviceLi {
+        display: block;
+        color: black;
+      }
+      .serviceLi > li:hover {
+        padding: 4px;
+        background-color: rgb(159, 240, 159);
+      }
+
+      .supportLi {
+        position: absolute;
+        margin-top: 20px;
+        background-color: white;
+        border:1px solid rgb(201, 199, 199);
+        display: none;
+        line-height: 1.9;
+        width: 210px;
+        font-size: 17px;
+        list-style-type: none;
+      }
+      .support:hover > .supportLi {
+        display: block;
+        color: black;
+      }
+      .supportLi > li:hover {
+        padding: 4px;
+        background-color: rgb(159, 240, 159);
+      }
+
+        .covidli {
+        position: absolute;
+        margin-top: 20px;
+        background-color: white;
+        border:1px solid rgb(201, 199, 199);
+        display: none;
+        line-height: 1.9;
+        width: 210px;
+        font-size: 17px;
+        list-style-type: none;
+      }
+      .covid:hover > .covidli {
+        display: block;
+        color: black;
+      }
+      .covidli > li:hover {
+        padding: 4px;
+        background-color: rgb(159, 240, 159);
+      }
+
+      .productLi {
+        position: absolute;
+        margin-top: 20px;
+        background-color: white;
+        border:1px solid rgb(201, 199, 199);
+        display: none;
+        justify-content: center;
+       
+        /* width: 210px; */
+       
+        
+      }
+      .product:hover > .productLi {
+        display: block;
+        color: black;
+      }
+      .productLi>img{
+        width: 80%;
+      }
+
+
+    /* nav :end */
